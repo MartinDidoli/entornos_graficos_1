@@ -61,4 +61,4 @@ value="3">zzz</li>
 
 3.j) La única diferencia entre los dos códigos se observa en el atributo name de ambos inputs, ya que en el primer código se utiliza el mismo name="opcion" y, en cambio, en el segundo código se utiliza name="opcion1" para el primer elemento input, y name="opcion2" para el segundo input.
 
-3.k) 
+3.k) En ambos códigos se muestra una lista de la cual elegir una opción, pero la diferencia es que en la primera se muestran las opciones en un menú desplegable, permitiendo solo elegir una, y en la segunda es un elemento que muestra toda la lista, permitiendo seleccionar más de una opción gracias al atributo multiple="multiple".
