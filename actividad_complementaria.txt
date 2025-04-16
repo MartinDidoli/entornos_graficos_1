@@ -17,4 +17,4 @@ Almacenamiento mejorado: Mediante el uso de las cookies, se permite almacenar lo
 
 1.2) Básicamente, es recomendado utilizarlo por las ventajas ya mencionadas, además de que es el estándar utilizado actualmente para construir sitios y aplicaciones web. Otras ventajas a nombrar son soporte multimedia, interactividad, desempeño, e integración.
 
-2.A y 3.A) Los principales codecs de audio y video soportados son AAC, MP3, Opus, H.264, H.265 y WebM.
+2.A y 3.A) Los principales codecs de audio y video soportados son AAC, MP3/MPEG, Opus, H.264, H.265 y WebM.
