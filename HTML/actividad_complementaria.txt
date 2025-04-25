@@ -1,0 +1,20 @@
+1.1 ¿Ventajas de HTML5?
+1.2 ¿Por qué utilizarlo?
+1.3 Nombre ventajas.
+
+2.A ¿Qué formatos soporta?
+3.A ¿Qué formatos soporta?
+
+1.1 y 1.3) Accesibilidad y diseño adaptativo: El resultado final de las páginas desarrolladas en HTML5 es completamente accesible, es decir, se puede acceder desde una computadora, tablet o celular.
+
+Es gratuito: No es necesario pagar por ningún programa en particular para desarrollar en HTML5, se puede programar hasta en un bloc de notas.
+
+Código ordenado: Gracias a las actualizaciones que se le han ido implementando a HTML, en HTML5 es más fácil organizar la estructura de la página a desarrollar, permitiendo al desarrollador trabajar de manera más efectiva y detectar errores de manera más rápida.
+
+Compatibilidad: HTML5 es soportado por la gran mayoría de navegadores modernos y más utilizados.
+
+Almacenamiento mejorado: Mediante el uso de las cookies, se permite almacenar localmente la información, lo que genera una mayor seguridad para el usuario.
+
+1.2) Básicamente, es recomendado utilizarlo por las ventajas ya mencionadas, además de que es el estándar utilizado actualmente para construir sitios y aplicaciones web. Otras ventajas a nombrar son soporte multimedia, interactividad, desempeño, e integración.
+
+2.A y 3.A) Los principales codecs de audio y video soportados son AAC, MP3/MPEG, Opus, H.264, H.265 y WebM.

@@ -1,0 +1,64 @@
+3.a) " <a href="http://www.google.com.ar">Click aquí para ir a Google</a> " Muestra el hipervínculo correctamente volviendo todo el texto clickeable y abriéndolo en la misma pestaña. 
+
+" <a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a> " Muestra el hipervínculo correctamente volviendo todo el texto clickeable y abriéndolo en otra pesaña.
+
+" <a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help"> " No muestra nada ya que no tiene un texto y una etiqueta de cierre </a>.
+
+" <a href="#">Click aquí para ir a Google</a> " Muestra el hipervínculo correctamente volviendo todo el texto clickeable pero no realiza ninguna acción ya que el href no tiene ningún enlace.
+
+" <a href="#arriba">Click aquí para volver arriba</a> " Muestra el hipervínculo correctamente volviendo todo el texto clickeable y debería llevar a la sección nombrada #arriba.
+
+" <a name="arriba" id="arriba"></a> " No muestra nada pero se puede utilizar como un punto de referencia interna para ser enlazado a través de otro hipervínculo.
+
+3.b) " <p><img src="im1.jpg" alt="imagen1" /><a href="http://www.google.com.ar">Click aquí</a></p> " Esta línea muestra la imagen im1.jpg con el alt imagen1 y a un costado el texto "Click aquí" que lleva al sitio web de Google.
+
+" <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> Click aquí</p> " Esta línea muestra la imagen como el elemento clickeable y el texto a un costado.
+
+" <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" />Click aquí</a></p> " Esta línea muestra tanto a la imagen como el texto "Click aquí" como un elemento clickeable.
+
+" <p><a href="http://www.google.com.ar"><img src="im1.jpg" alt="imagen1" /></a> <a href="http://www.google.com.ar">Click aquí</a></p> " En esta línea tanto el texto como la imagen siguen siendo elementos clickeables pero, a diferencia del anterior, el vínculo esta puesto en cada elemento, y no en los dos como un conjunto, por lo que, si se quisiera, se podría poner dos enlaces distintos.
+
+3.c) " <ul>
+<li>xxx</li>
+<li>yyy</li>
+<li>zzz</li>
+</ul> " Este código muestra una lista sin orden con los puntos xxx, yyy, zzz.
+
+" <ol>
+<li>xxx</li>
+<li>yyy</li>
+<li>zzz</li>
+</ol> " Este código muestra una lista ordenada con los puntos 1.xxx 2.yyy 3.zzz.
+
+" <ol>
+<li>xxx</li>
+</ol>
+<ol>
+<li value="2">yyy</li>
+</ol>
+<ol>
+<li
+value="3">zzz</li>
+</ol> " Este código muestra 3 listas ordenadas pero que cada una comienza con un valor distinto, la primera por defecto en 1, la segunda se le asigna que empiece con value="2", y la tercera con value="3".
+
+" <blockquote>
+<p>1. xxx<br />
+2. yyy<br />
+3. zzz</p>
+</blockquote> " Este código utiliza blockquote para especificar que es una sección citada de una fuente, y despues se hace una especie de lista "falsa" ya que se utiliza los br para realizar los cambios de línea.
+
+3.d) En ambos códigos se muestra una tabla, pero la diferencia principal se encuentra en la primera fila, donde en un código se utiliza el elemento <th> para aclarar que cada celda es un encabezado de la columna, y en el otro código se utiliza <td> como si fuera una celda más pero se le agrega <div align="center"> y <strong> para centrar y poner en negrita el texto interior.
+
+3.e) En ambos códigos se muestra una tabla compuesta por dos filas y 3 columnas. La principal diferencia se encuentra en el título de la tabla, donde en un código se lo decidió mostrar con <caption> y en el otro con una celda más de la tabla utilizando coldspan="3" para hacer que la celda utilice todo el ancho de la tabla y <div align="center"> para centrar el texto en la celda.
+
+3.f) En ambos códigos se muestra una tabla, pero la diferencia se encuentra en la primer celda de esta donde en una se utiliza rowspan="2" para hacer que esa celda utilice 2 filas y en la otra se hace uso del atributo colspan="2" para hacer que esa celda utilice 2 columnas de la tabla.
+
+3.g) En ambos códigos se muestra una tabla, pero la diferencia principal se observa en el borde de esta ya que a diferencia de la primera, que solo hace uso del atributo border="1" para agregar el borde, en la segunda también se utiliza cellpadding="0" y cellspacing="0" lo que afecta al espacio entre y dentro de las celdas. Dos diferencias más que solo son observables en el código se encuentran en el título, donde hacen uso de dos colspan con valores distintos pero al solo haber 2 columnas no se reflejan en el renderizado de la página, y en el segundo td, donde en la primer tabla, a pesar de utilizar un colspan="2", se distribuye igual que la segunda tabla.
+
+3.h) En los tres códigos se muestra una formulario para realizar un Login. Las diferencias son que tanto la primera y la tercera tienen un fieldset con un legend a diferencia del segundo que solo tiene el título del form como texto plano; en el primero hay un texto predeterminado en los dos campos y se censura la clave, el elemento form tiene un atributo action="procesar.php" y method="post"; en el segundo, ambos campos están vacíos y no se censuran, el atributo action="" se encuentra vacío, y se utiliza el method="get" ; en el tercero, solo se censura la clave, en el atributo action del form se envía a "xx@xx.com", se especifica cómo encriptar la información con enctype=text/plain, y se utiliza el atributo type="reset" dentro del elemento input a diferencia de los otros dos form.
+
+3.i) En ambos códigos se muestra un texto junto a un botón, pero la diferencia se encuentra en que el primer código está implementado con el elemento <button>, además de que se le agrega un elemento <img>, y el segundo botón está implementado con el elemento <input> que es convertido en un botón con el atributo type="button".
+
+3.j) La única diferencia entre los dos códigos se observa en el atributo name de ambos inputs, ya que en el primer código se utiliza el mismo name="opcion" y, en cambio, en el segundo código se utiliza name="opcion1" para el primer elemento input, y name="opcion2" para el segundo input.
+
+3.k) En ambos códigos se muestra una lista de la cual elegir una opción, pero la diferencia es que en la primera se muestran las opciones en un menú desplegable, permitiendo solo elegir una, y en la segunda es un elemento que muestra toda la lista, permitiendo seleccionar más de una opción gracias al atributo multiple="multiple".
