@@ -1,0 +1,44 @@
+1. ¿Qué es CSS y para qué se usa?
+2. CSS utiliza reglas para las declaraciones de estilo, ¿cómo funcionan?
+3. ¿Cuáles son las tres formas de dar estilo a un documento?
+4. ¿Cuáles son los distintos tipos de selectores más utilizados? Ejemplifique cada uno.
+5. ¿Qué es una pseudo-clase? ¿Cuáles son las más utilizadas aplicadas a vínculos?
+6. ¿Qué es la herencia?
+7. ¿En qué consiste el proceso denominado cascada?
+
+1. CSS son las siglas de hojas de estilo en cascada. Las hojas de estilo es una tecnología que nos permite controlar la apariencia de una página web. CSS describe como los elementos dispuestos en la página son presentados al usuario.
+Con CSS podemos especificar estilos como el tamaño, fuentes, color, espaciado entre textos y recuadros así como el lugar donde disponer texto e imágenes en la página.
+
+2. Una regla es un tipo de estamento que identifica un elemento de la página HTML y le indica al navegador el estilo que deberá tener ese elemento. Cada regla consta de: un selector (P) que identifica (o selecciona) un elemento de la página Web.
+Al selector le sigue un bloque de declaraciones que comienza con una llave de apertura ({) y termina con otra llave de cierre (}). Entre las llaves van las declaraciones (background-color: red; color: #FFFFFF), que son las que le indican al browser el estilo para el elemento seleccionado.
+Las declaraciones, a su vez, tienen dos partes: una propiedad (background-color, color) que consiste en alguna de las palabras claves definidas por el lenguaje, seguida de dos puntos (:) y un valor (red, #FFFFFF) para esa propiedad.
+El otro tipo de estamento se llama regla arroba porque comienza con el carácter arroba (@) seguido inmediatamente (es decir, sin espacios intermedios) por un identificador. Las reglas arroba sirven para indicarle al navegador algo más que un estilo de composición.
+
+3. Las tres formas de dar estilo a un documento son:
+
+Directamente a la marca: <h1 style="color:#ff0000;background-color:#ffff00">
+
+En el head de la página:
+<style>
+h1 {color:#ff0000;background-color:#ffff00}
+</style>
+
+Archivo externo: <link rel="StyleSheet" href="estilos.css" type="text/css"> con los estilos definidos dentro del archivo estilos.css.
+
+4. Selector de tipo. Ej: p{color: green}.
+
+Selector de clase. Ej: .nombrepropio{color: blue}.
+
+Selector de ID. Ej: #subtitulo3{font-size: 30}.
+
+Selector de atributo. Ej: [href="www.google.com"]{color: brown}.
+
+Selector universal. Ej: *{color: green}.
+
+5. Las pseudo-clases son abstracciones que permiten referirse a elementos que de otro modo resultarían inaccesibles.
+
+Las más utilizadas aplicadas a vínculos son: :link, :visited, :hover, :active, :focus.
+
+6. La herencia se refiere a la capacidad de los elementos de una página web de adoptar las propiedades de estilo de su elemento contenedor. Si se define una propiedad de estilo para un elemento padre, todos los elementos que están dentro de él heredarán esa propiedad, evitando la necesidad de especificarla para cada elemento hijo.
+
+7. Cascada es el proceso por el cual los estilos definidos en múltiples hojas de estilo vinculadas a una página web se suman y se apican jerárquicamente. Esto permite tener una hoja de estilo común para la uniformidad del sitio y hojas de estilo específicas para secciones o departamentos, donde los estilos particulares se añaden a los estilos comunes sin necesidad de repetirlos.
