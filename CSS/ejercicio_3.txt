@@ -1,0 +1,11 @@
+En la primera regla p.quitar se selecciona a todos los <p> de clase "quitar". La declaración que se realiza es:
+
+"color: red;" Para cambiar el color del texto a rojo.
+
+En la segunda regla *.desarrollo se selecciona universalmente (debido al selector *) a cualquier elemento de clase .desarrollo. La declaración que se realiza es:
+
+"font-size: 8px;" Para cambiar el tamaño de la fuente a 8 píxeles.
+
+En la tercera regla .importante se selecciona a cualquier elemento de clase .importante. La declaración que se realiza es:
+
+"font-size: 20px" Para cambiar el tamaño de la fuente a 20 píxeles.
