@@ -1,0 +1,15 @@
+En el primer código:
+
+- La clase "contenido" se aplica al elemento <p>, haciendo que la fuente sea de 14 píxeles de tamaño (no de 10 píxeles como es declarado en p{}) y, a pesar de cambiar el font-weight, este no se altera en el renderizado de la página ya que se le agrega un estilo en línea, el cual tiene mayor prioridad y lo deja con un font-weight normal. También se observa que en la hoja de estilo se aclara que todos los <p> tendrán como font-family en primer orden a Arial y después Helvetica, además de cambiar el color del texto a negro superponiéndose con el * que aclara que todos los textos serán de color verde.
+
+- El texto incluído en <td> tiene un font-weight normal ya que no es afectado por la clase contenido, a diferencia del segundo código, y es de color verde ya que se vea afectado por el selector *.
+
+- El texto con vínculo en el elemento <a> tendrá el color gris mientras no se haya clickeado, color azul una vez haya sido clickeado, color fucsia mientras se mantenga el mouse sobre el enlace, y color rojo mientras se mantenga pulsado.
+
+En el segundo código:
+
+- Al <p> se le aplica el tamaño 10px aclarado en p{} y usa un font-weight: bold que se declara en .contenido.
+
+- El texto incluído en <td> se mantiene de color verde como en el código anterior pero con un font-size de 14 píxeles y en negrita ya que el body es de clase "contenido".
+
+- El texto con vínculo en el elemento <a> mantiene los mismos cambios de colores que en el anterior, pero cambia su font-size a 14 píxeles y font-weight a bold ya que se ve afectado por la clase "contenido.
