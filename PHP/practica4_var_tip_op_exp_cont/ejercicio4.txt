@@ -1,0 +1,8 @@
+El código genera las siguientes salidas:
+
+"Warning: Undefined variable $flor in C:\xampp\htdocs\webtest\codigo.php on line 2
+
+Warning: Undefined variable $color in C:\xampp\htdocs\webtest\codigo.php on line 2
+El El clavel blanco"
+
+Esto se debe a que las variables $flor y $color todavía no existen en codigo.php lo que hace que tire los primeros dos errores. Luego muestra cómo se renderiza igualmente primero poniendo "El" sin las dos variables siguientes ya que no habían sido importadas, y luego la frase completa "El clavel blanco" ya que ahí sí están importadas esas variables.
