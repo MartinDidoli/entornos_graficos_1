@@ -1,0 +1,28 @@
+-Las variables son:
+
+$i que es de tipo integer
+$a que es de tipo boolean
+$b que es de tipo string
+$c que es de tipo string
+$d que es de tipo integer
+$f que es de tipo integer
+$g que es de tipo integer
+
+-Los operadores son:
+
+* (multiplicación)
+= (asignación)
++= (asignar y sumar)
+++ (aumentar en uno)
+? : (operador ternario)
+
+Las funciones y parámetros son:
+
+doble() con el parámetro $i
+gettype() con los parámetros $a $b $c $d
+is_int() con el parámetro $d
+is_string() con el parámetro $a
+
+La única estructura de control es if.
+
+-La salida por pantalla es: booleanstringstringinteger1xyzxyz184444
