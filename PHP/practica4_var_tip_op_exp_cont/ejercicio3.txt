@@ -1,0 +1,3 @@
+a) Renderiza una tabla del 90% del ancho de la pantalla e imprime a través de 2 for, la cantidad de $row y $col que se hayan colocado (en este caso 5 filas y 2 columnas).
+
+b) Renderiza un formulario donde se puede ingresar la edad con un botón "ir" al costado. Al ingresar una edad mayor o igual a 21 la página muestra "Mayor de edad" y al ingresar una edad menor a 21, la página muestra "Menor de edad".
