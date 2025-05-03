@@ -1,0 +1,5 @@
+a) bar1
+
+b) 5942
+
+c) No muestra nada.

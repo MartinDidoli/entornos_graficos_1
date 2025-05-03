@@ -1,0 +1,1 @@
+Sí, los dos códigos son equivalentes ya que ambos crean un array asociativo con los mismos valores.
