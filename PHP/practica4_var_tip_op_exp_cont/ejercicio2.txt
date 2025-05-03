@@ -1,0 +1,5 @@
+a) Los 3 códigos son equivlaentes imprimiendo en pantalla: 12345678910
+
+b) Los 3 códigos son equivlaentes imprimiendo en pantalla: 12345678910
+
+c) Los 3 códigos son equivlaentes imprimiendo en pantalla lo mismo dependiendo del valor de $i
