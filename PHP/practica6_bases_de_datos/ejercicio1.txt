@@ -1,0 +1,17 @@
+Consultar a una base de datos: Para comenzar la comunicación con un servidor de base de datos MySQL, es necesario abrir una conexión a ese servidor. Para inicializar esta conexión, PHP ofrece la función mysqli_connect().
+
+Todos sus parámetros son opcionales, pero hay tres de ellos que generalmente son necesarios: el nombre del servidor, el nombre de usuario de la base de datos, y la contraseña.
+
+Una vez abierta la conexión, se debe seleccionar una base de datos para su uso, mediante la función mysqli_select_db().
+
+Esta función debe pasar como parámetro la variable en la cual se guardó la conexión que devolvió la función mysqli_connect(), y el nombre de la base de datos a seleccionar.
+
+La función mysqli_query() se utiliza para ejecutar una consulta a la base de datos que especifiquemos
+
+y requiere como parámetros la variable en la cual se guardó la conexión que devolvió la función mysqli_connect(), y la consulta que se hará a la base de datos.
+
+La cláusula or die() se utiliza para detener un script y capturar el error.
+
+y la función mysqli_error() se puede usar para devolver el último mensaje de error para la llamada más reciente a una función de MySQLi que puede haberse ejecutado correctamente o fallado.
+
+Explicación: El código itera sobre los resultados de la consulta que se guardó en $vResultado mostrando los primeros 3 campos de cada fila como celdas dentro de una tabla. Cuando se muestran todas, se libera la memoria y se cierra la conexión.

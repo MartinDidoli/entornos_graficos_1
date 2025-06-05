@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de alta de capital</title>
+</head>
+<body>
+    <form action="alta.php" method="POST" name="formAlta">
+        <table border=1>
+            <tr>
+                <td>Ciudad</td>
+                <td><input type="text" name="ciudad"></td>
+            </tr>
+            <tr>
+                <td>País</td>
+                <td><input type="text" name="pais"></td>
+            </tr>
+            <tr>
+                <td>Habitantes</td>
+                <td><input type="number" name="habitantes"></td>
+            </tr>
+            <tr>
+                <td>Superficie</td>
+                <td><input type="number" step="any" name="superficie"></td>
+            </tr>
+            <tr>
+                <td>¿Tiene Metro?</td>
+                <td>
+                    <input type="radio" id="si" name="tiene_metro" value="si"><label for="si">Si</label>
+                    <input type="radio" id="no" name="tiene_metro" value="no"><label for="no">No</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="Agregar"></td>
+                <td><a href="menu.html">Volver al menú del ABML</a></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
